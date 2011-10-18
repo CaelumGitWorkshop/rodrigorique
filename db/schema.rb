@@ -10,13 +10,14 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20111018214339) do
+ActiveRecord::Schema.define(:version => 20111018231739) do
 
   create_table "pessoas", :force => true do |t|
     t.string   "nome"
     t.date     "data_de_nascimento"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "telefone"
   end
 
 end

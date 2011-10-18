@@ -4,6 +4,7 @@
   <tr>
     <th>Nome</th>
     <th>Data de nascimento</th>
+<th>Telefone</th>
     <th></th>
     <th></th>
     <th></th>
@@ -13,6 +14,7 @@
   <tr>
     <td><%= pessoa.nome %></td>
     <td><%= pessoa.data_de_nascimento %></td>
+<td><%= pessoa.telefone %></td>
     <td><%= link_to 'Show', pessoa %></td>
     <td><%= link_to 'Edit', edit_pessoa_path(pessoa) %></td>
     <td><%= link_to 'Destroy', pessoa, :confirm => 'Are you sure?', :method => :delete %></td>
